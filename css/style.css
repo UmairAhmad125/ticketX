@@ -1,0 +1,85 @@
+body {
+    background-color: whitesmoke;
+}
+
+.top-nav {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 35px;
+}
+
+.top-nav a {
+    margin-right: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.bottom-nav a:hover,
+.top-nav a:hover {
+    text-decoration: none;
+}
+
+.bottom-nav a {
+    color: whitesmoke;
+}
+
+.nav-menu a {
+    margin-right: 20px;
+}
+
+.fb,
+.twitter {
+    width: 15px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+.logo img {
+    width: 150px;
+    filter: invert(100%);
+}
+
+.bottom-nav {
+    padding: 0 40px 0 40px;
+    height: 70px;
+    background: rgb(97, 84, 105);
+    background: linear-gradient(90deg, rgb(140, 126, 150) 0%, rgba(137, 73, 116, 1) 26%, rgba(139, 77, 100, 1) 56%, rgb(126, 117, 106) 100%);
+}
+
+.tx-btn {
+    background: none;
+    border: 4px solid rgb(196, 175, 175);
+    color: whitesmoke;
+    height: 3rem;
+}
+
+.top-main {
+    background-image: url(../resources/bg.jpg);
+    width: 100%;
+    height: 600px;
+    font-family: 'Roboto Slab', serif;
+    padding: 40px 0 0 50px;
+}
+
+.sp1 {
+    font-size: 50px;
+}
+
+.plan-big {
+    line-height: 4em;
+}
+
+.sp2,
+.sp3,
+.sp4,
+.sp5 {
+    color: black;
+    font-size: 65px;
+}
+
+.sp3 {
+    background: rgb(230, 230, 144);
+}
