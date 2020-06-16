@@ -246,7 +246,7 @@ tr:nth-child(2n-1) {
 
 .table-div {
     height: 300px;
-    background-image: url(../resources/white-waves.png);
+    background-image: url(../resources/gravel.png);
 }
 
 .menu {
@@ -264,9 +264,49 @@ tr:nth-child(2n-1) {
     background: linear-gradient(90deg, rgb(140, 126, 150) 0%, rgba(137, 73, 116, 1) 26%, rgba(139, 77, 100, 1) 56%, rgb(126, 117, 106) 100%);
 }
 
-@media only screen and(max-width: 768px) {
+.nav-mob {
+    display: none;
+}
+
+@media screen and (max-width: 760px) {
+    .navbar {
+        display: none;
+    }
     .p1 {
         width: 100% !important;
         max-width: 100%;
+    }
+    .nav-mob {
+        display: block;
+        top: 30px;
+        left: 30px;
+        position: fixed;
+    }
+    .nav-mob img,
+    .close img {
+        width: 30px;
+    }
+    .close {
+        top: 30px;
+        right: 30px;
+        position: fixed;
+    }
+    .marg {
+        margin-top: 0;
+    }
+    .mob-menu,
+    .mob-menu h2 {
+        font-size: 3rem;
+    }
+    .mob-menu a {
+        color: darkred;
+    }
+    .bottom-foot,
+    .bottom-foot div {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 0 !important;
     }
 }
