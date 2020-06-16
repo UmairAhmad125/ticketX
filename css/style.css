@@ -1,5 +1,15 @@
 body {
-    background-color: whitesmoke;
+    background-color: rgb(230, 212, 212);
+}
+
+.navbar {
+    top: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.marg {
+    margin-top: 100px;
 }
 
 .top-nav {
@@ -48,6 +58,10 @@ body {
     height: 70px;
     background: rgb(97, 84, 105);
     background: linear-gradient(90deg, rgb(140, 126, 150) 0%, rgba(137, 73, 116, 1) 26%, rgba(139, 77, 100, 1) 56%, rgb(126, 117, 106) 100%);
+}
+
+.bg-colored {
+    background-color: #B970CC;
 }
 
 .tx-btn {
@@ -103,7 +117,8 @@ body {
     font-size: 35px;
 }
 
-.main-program {
+.main-program,
+.mid-main {
     height: 500px;
     background: rgb(97, 84, 105);
     background: linear-gradient(90deg, rgb(140, 126, 150) 0%, rgba(137, 73, 116, 1) 26%, rgba(139, 77, 100, 1) 56%, rgb(126, 117, 106) 100%);
@@ -129,7 +144,8 @@ body {
     cursor: pointer;
 }
 
-.main-program h3 {
+.main-program h3,
+.contact-p a {
     text-decoration: underline;
     text-decoration-color: white;
 }
@@ -143,6 +159,7 @@ body {
     max-height: 180px;
 }
 
+.contact-p,
 .c-cont h4 {
     font-size: 1.3rem;
 }
@@ -177,6 +194,74 @@ body {
 
 .logo-bottom {
     width: 200px;
+}
+
+.logo-comp {
+    max-width: 220px;
+    filter: invert(100%);
+}
+
+.event {
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.event1 {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url('../resources/event1.jpeg');
+}
+
+.event2 {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url('../resources/event2.jpeg');
+}
+
+.table {
+    border: 5px dotted rgba(174, 188, 121, 0.66);
+    border-radius: 2px 6px 6px 3px;
+    width: fit-content;
+}
+
+tr:nth-child(2n) {
+    background-color: lightblue;
+}
+
+tr:nth-child(2n-1) {
+    background-color: rgb(57, 180, 180);
+}
+
+.steps {
+    width: 300px;
+    border: .5px solid gray;
+    border-radius: 5rem;
+}
+
+.steps ul li {
+    list-style: square;
+}
+
+.steps span {
+    color: darkblue;
+}
+
+.table-div {
+    height: 300px;
+    background-image: url(../resources/white-waves.png);
+}
+
+.menu {
+    min-height: 450px;
+    background-image: url(../resources/white-waves.png);
+}
+
+.radio-group img {
+    max-width: 70px;
+    height: 40px;
+}
+
+.form button {
+    background: rgb(97, 84, 105);
+    background: linear-gradient(90deg, rgb(140, 126, 150) 0%, rgba(137, 73, 116, 1) 26%, rgba(139, 77, 100, 1) 56%, rgb(126, 117, 106) 100%);
 }
 
 @media only screen and(max-width: 768px) {

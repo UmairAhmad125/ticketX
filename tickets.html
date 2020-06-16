@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navbar w-100 p-0">
+        <nav class="top-nav text-white bg-dark w-100">
+            <a href="">
+                <img class="fb" src="resources/fb.svg" alt="fb logo">
+            </a>
+            <a href="">
+                <img class="twitter" src="resources/twitter.svg" alt="">
+            </a>
+            <a href="">
+                English
+            </a>
+            <a href="">
+                My Page
+            </a>
+            <a href="">
+                Logout
+            </a>
+        </nav>
+        <nav class="bottom-nav d-flex justify-content-between align-items-center bg-white w-100">
+            <div class="logo">
+                <a href="">
+                    <img src="resources/logo_transparent.png" alt="">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html">
+                    About Event
+                </a>
+                <a href="program.html">
+                    The Company
+                </a>
+                <a href="tickets.html">
+                    Buy Tickets
+                </a>
+                <a href="">
+                    Sponsor
+                </a>
+                <button class="tx-btn">
+                    tX Campaign
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main class="ticket-main marg d-flex flex-column justify-content-center align-items-center">
+        <div class="tickets d-flex flex-column justify-content-center align-items-center w-100">
+            <h2 class="mt-5">Select Tickets</h2>
+            <div class="steps text-center d-flex align-items-center justify-content-center mt-5">
+                <ul class="pt-3">
+                    <li>Step 1 : <span>Check the price and day</span></li>
+                </ul>
+            </div>
+            <div class="mt-5 table-div w-100 d-flex align-items-center justify-content-center">
+                <table class="table  odd ">
+                    <tr class="">
+                        <th>Ticket</th>
+                        <th>1 Day</th>
+                        <th class="text-center" colspan="2">2 Days</th>
+                        <th>Whole Event</th>
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <td>17, July (Wed)</td>
+                        <td>18, Julfy (Thu)</td>
+                        <td>17-18, July</td>
+                        <td>17-19, July</td>
+                    </tr>
+                    <tr>
+                        <th>Normal</th>
+                        <td>&dollar;70</td>
+                        <td>&dollar;100</td>
+                        <td>&dollar;150</td>
+                        <td>&dollar;199</td>
+                    </tr>
+                    <tr>
+                        <th>Student</th>
+                        <td>&dollar;50</td>
+                        <td>&dollar;70</td>
+                        <td>&dollar;120</td>
+                        <td>&dollar;1700</td>
+                    </tr>
+                </table>
+            </div>
+            <h2 class="mt-5">Purchase Ticket</h2>
+            <div class="steps text-center d-flex align-items-center justify-content-center mt-5">
+                <ul class="pt-3">
+                    <li>Step 2 : <span>Fill out the form</span></li>
+                </ul>
+            </div>
+            <div class="menu mt-5 w-100 d-flex flex-column align-items-center justify-content-center">
+                <form action="#" class="d-flex flex-column form bg-light px-3 pt-3 pb-3">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Name">
+                    <label class="mt-3" for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email">
+                    <label class="mt-3" for="t-tickets">Total Tickets</label>
+                    <input type="number" id="t-tickets" placeholder="Add digits only">
+                    <label class="mt-3" for="payment">Select Paymnet Method</label>
+                    <div class="radio-group">
+                        <input type="radio" id="mastercard" value="mastercard" name="pmeth">
+                        <label class="px-2" for="mastercard"><img src="resources/mastercard.png" alt=""></label>
+                        <input type="radio" id="visa" value="visa" name="pmeth">
+                        <label class="px-2" for="visa"><img src="resources/visa.png" alt=""></label>
+                        <input type="radio" id="paypal" value="paypal" name="pmeth">
+                        <label class="px-2" for="paypal"><img src="resources/paypal.png" alt=""></label>
+                    </div>
+                    <button type="submit" class="text-light border-0 w-50 align-self-center mt-3 rounded">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="mt-5">
+        <div class="bottom-foot d-flex flex-row justify-content-center align-items-center bg-dark text-light">
+            <img class="logo-bottom filter" src="resources/logo.png" alt="">
+            <div class="d-flex ">
+                <p class="mt-5">&copy; Copyrights 2020 ticketX, All Rights Reserved <br> <br>ticketX is a multinational consumer goods corporation headquartered in Cincinnati, Ohio, founded in 1837. <br>visit <a class="text-dark" href="">www.ticketx.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
