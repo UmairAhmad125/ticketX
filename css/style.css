@@ -1,5 +1,6 @@
 body {
     background-color: rgb(230, 212, 212);
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -37,7 +38,7 @@ body {
 }
 
 .nav-menu a {
-    margin-right: 20px;
+    margin-right: 1rem;
 }
 
 .fb,
@@ -142,6 +143,29 @@ body {
 
 .p1:hover {
     cursor: pointer;
+    background-color: teal;
+    border: 1px solid thistle;
+}
+
+.tx-btn:hover,
+.tickets h2:hover,
+.main-program h2:hover,
+.main-program h3:hover,
+.featured-speakers h2:hover,
+.partners h2:hover {
+    cursor: pointer;
+    color: rgb(29, 216, 216) !important;
+}
+
+.tickets h2::after,
+.partners h2::after,
+.featured-speakers h2::after,
+.main-program h2::after {
+    content: "";
+    border-bottom: 4px solid tomato;
+    width: 30px;
+    display: block;
+    margin: 2px auto;
 }
 
 .main-program h3,
@@ -251,7 +275,7 @@ tr:nth-child(2n-1) {
 
 .menu {
     min-height: 450px;
-    background-image: url(../resources/white-waves.png);
+    background-image: url(../resources/gravel.png);
 }
 
 .radio-group img {
@@ -269,18 +293,29 @@ tr:nth-child(2n-1) {
     display: none;
 }
 
+.main-program button {
+    height: 50px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.main-program button:hover {
+    background-color: red;
+    color: rgb(230, 212, 212) !important;
+}
+
 .nav-mob img,
 .close img {
     width: 30px;
 }
 
 .mob-menu-body {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url('../resources/event1.jpeg');
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73), rgba(117, 19, 93, 0.73));
     height: 100%;
     background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     .navbar,
     .hide {
         display: none;
@@ -294,6 +329,7 @@ tr:nth-child(2n-1) {
         top: 30px;
         left: 30px;
         position: fixed;
+        z-index: 1;
     }
     .close {
         top: 30px;
@@ -366,6 +402,7 @@ tr:nth-child(2n-1) {
         min-height: fit-content;
         max-width: 100%;
     }
+    .mid-main,
     .main-program {
         height: fit-content;
     }
@@ -383,11 +420,22 @@ tr:nth-child(2n-1) {
     .partners {
         height: fit-content;
     }
-    .companies {
+    .companies,
+    .past-events {
         flex-direction: column !important;
     }
     .p-img {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+    .we-lose-wid {
+        width: 100% !important;
+    }
+    .mid-main h2 {
+        text-align: center;
+    }
+    .event2,
+    .pb-p2 {
+        margin-top: 10px;
     }
 }
