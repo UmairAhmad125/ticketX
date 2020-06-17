@@ -380,4 +380,14 @@ tr:nth-child(2n-1) {
         max-width: 150px;
         max-height: 150px;
     }
+    .partners {
+        height: fit-content;
+    }
+    .companies {
+        flex-direction: column !important;
+    }
+    .p-img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
