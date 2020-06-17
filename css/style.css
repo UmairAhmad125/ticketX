@@ -297,6 +297,8 @@ tr:nth-child(2n-1) {
     height: 50px;
     font-weight: 900;
     font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .main-program button:hover {
