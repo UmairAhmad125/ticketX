@@ -1,5 +1,5 @@
 # ticketX
-This html/css capstone project is an online ticket selling website for concerts around the globe.
+This html/css capstone project is a website for concert details like artists, schedule and ticket pricing.
 
 
 ![screenshot](./resources/screenshot.png)
