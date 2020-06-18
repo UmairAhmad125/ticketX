@@ -1,11 +1,9 @@
 # ticketX
 This html/css capstone project is a website for concert details like artists, schedule and ticket pricing.
-
+Using bootstrap and media queries to achieve responsiveness. CSS flexbox is extensively used throughout the project to get the better layout for different screen sizes.
+Feature od the projects includes concert schedule, sponsors, ticket prices as well as ticket purchase option (for now it only has front-end and doesn't actually book ticket).
 
 ![screenshot](./resources/screenshot.png)
-
-Using bootstrap and media queries to achieve responsiveness. CSS flexbox is extensively used throughout the project to get the better layout for different screen sizes.
-Feature od the projects includes concert schedule, sponsors, ticket prices as well as ticket purchase option (for now it only has front-end doesn't actually book ticket).
 
 ## Built With
 
@@ -34,7 +32,7 @@ Contributions, issues and feature requests are welcome! Start by:
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/ticketX/0ee173519c59b98475ec7d13be4269bbefc2f34a/index.html)
+[Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/ticketX/886fa1db7071ecb6f555f32eeb56078806bf7021/index.html)
 
 ## Project Presentation
 
