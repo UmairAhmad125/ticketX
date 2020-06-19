@@ -150,8 +150,8 @@ body {
 
 .main-program {
   height: 500px;
-  background: #ec5242;
-  background: linear-gradient(90deg, rgba(236, 82, 66, 1) 0%, rgba(235, 75, 58, 1) 12%, rgba(233, 66, 49, 1) 27%, rgba(236, 82, 66, 1) 61%, rgba(224, 61, 44, 1) 83%, rgba(236, 82, 66, 1) 100%);
+  background: #272a31;
+  background: linear-gradient(90deg, rgb(140, 126, 150) 0%, rgba(137, 73, 116, 1) 26%, rgba(139, 77, 100, 1) 56%, rgb(126, 117, 106) 100%);
 }
 
 .mid-main {
