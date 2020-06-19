@@ -84,9 +84,6 @@ body {
 .bottom-nav {
   padding: 0 40px 0 40px;
   height: 70px;
-
-  /* background: rgb(97, 84, 105);
-  background: linear-gradient(90deg, rgb(140, 126, 150) 0%, rgba(137, 73, 116, 1) 26%, rgba(139, 77, 100, 1) 56%, rgb(126, 117, 106) 100%); */
 }
 
 .bg-colored {
@@ -153,8 +150,8 @@ body {
 
 .main-program {
   height: 500px;
-  background: #272a31;
-  background: linear-gradient(90deg, rgb(140, 126, 150) 0%, rgba(137, 73, 116, 1) 26%, rgba(139, 77, 100, 1) 56%, rgb(126, 117, 106) 100%);
+  background: #ec5242;
+  background: linear-gradient(90deg, rgba(236, 82, 66, 1) 0%, rgba(235, 75, 58, 1) 12%, rgba(233, 66, 49, 1) 27%, rgba(236, 82, 66, 1) 61%, rgba(224, 61, 44, 1) 83%, rgba(236, 82, 66, 1) 100%);
 }
 
 .mid-main {
@@ -166,7 +163,7 @@ body {
 }
 
 .filter {
-  filter: invert(90%);
+  filter: invert(50%);
 }
 
 .p1 img {
@@ -246,7 +243,7 @@ body {
 }
 
 .net {
-  filter: invert(100%);
+  filter: invert(80%);
 }
 
 .p-g {
@@ -275,11 +272,11 @@ body {
 }
 
 .event1 {
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url('../resources/event1.jpeg');
+  background-image: linear-gradient(to bottom, rgba(236, 82, 66, 0.52), rgba(224, 61, 44, 0.73)), url('../resources/event1.jpeg');
 }
 
 .event2 {
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url('../resources/event2.jpeg');
+  background-image: linear-gradient(to bottom, rgba(236, 82, 66, 0.52), rgba(224, 61, 44, 0.73)), url('../resources/event2.jpeg');
 }
 
 .table {
