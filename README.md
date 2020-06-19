@@ -32,7 +32,7 @@ Contributions, issues and feature requests are welcome! Start by:
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/ticketX/886fa1db7071ecb6f555f32eeb56078806bf7021/index.html)
+[Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/ticketX/5c9633e70425f44cf3e8d1f4de977f876bd25d45/index.html)
 
 ## Project Presentation
 
