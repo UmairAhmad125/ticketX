@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(230, 212, 212);
+  background-color: #f8f8f8;
   font-family: 'Lato', sans-serif;
   overflow-x: hidden;
 }
@@ -32,7 +32,7 @@ body {
 .main-program h3,
 .contact-p a {
   text-decoration: underline;
-  text-decoration-color: white;
+  text-decoration-color: #d3d3d3;
 }
 
 .nav-menu a {
@@ -40,12 +40,33 @@ body {
 }
 
 .bottom-nav a {
-  color: whitesmoke;
+  color: #9e9e9e;
 }
 
 .bottom-nav a:hover,
 .top-nav a:hover {
   text-decoration: none;
+  color: #ec5242;
+}
+
+.red-c {
+  color: #ec5242;
+}
+
+.white-c {
+  background-color: #fff;
+}
+
+.rotate-d::before {
+  margin-left: 86px;
+  margin-top: -71px;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: #ec5242;
+  transform: rotate(45deg);
+  color: white;
+  position: absolute;
 }
 
 .fb,
@@ -58,14 +79,14 @@ body {
 .logo img {
   height: 100px;
   width: 150px;
-  filter: invert(100%);
 }
 
 .bottom-nav {
   padding: 0 40px 0 40px;
   height: 70px;
-  background: rgb(97, 84, 105);
-  background: linear-gradient(90deg, rgb(140, 126, 150) 0%, rgba(137, 73, 116, 1) 26%, rgba(139, 77, 100, 1) 56%, rgb(126, 117, 106) 100%);
+
+  /* background: rgb(97, 84, 105);
+  background: linear-gradient(90deg, rgb(140, 126, 150) 0%, rgba(137, 73, 116, 1) 26%, rgba(139, 77, 100, 1) 56%, rgb(126, 117, 106) 100%); */
 }
 
 .bg-colored {
@@ -74,8 +95,8 @@ body {
 
 .tx-btn {
   background: none;
-  border: 4px solid rgb(196, 175, 175);
-  color: whitesmoke;
+  border: 4px solid #ec5242;
+  color: #9e9e9e;
   height: 3rem;
 }
 
@@ -104,7 +125,6 @@ body {
 .sp3,
 .sp4,
 .sp5 {
-  color: black;
   font-size: 65px;
 }
 
@@ -114,6 +134,7 @@ body {
 
 .sp3-a:hover {
   text-decoration: none;
+  color: #ec5242;
 }
 
 .plan-bg-pl {
@@ -130,11 +151,18 @@ body {
   font-size: 35px;
 }
 
-.main-program,
-.mid-main {
+.main-program {
   height: 500px;
-  background: rgb(97, 84, 105);
+  background: #272a31;
   background: linear-gradient(90deg, rgb(140, 126, 150) 0%, rgba(137, 73, 116, 1) 26%, rgba(139, 77, 100, 1) 56%, rgb(126, 117, 106) 100%);
+}
+
+.mid-main {
+  border-bottom: 0.5px solid #272a314b;
+}
+
+.dark-c {
+  color: #272a31;
 }
 
 .filter {
@@ -149,7 +177,7 @@ body {
 .p1 {
   min-height: 230px;
   max-width: 14%;
-  background-color: rgba(139, 77, 100, 1);
+  background-color: rgba(39, 42, 49, 1);
   margin: 20px 5px 10px 5px;
 }
 
@@ -202,6 +230,7 @@ body {
 
 .c-cont h5 {
   font-size: 1rem;
+  color: #ec5242;
 }
 
 .c-cont p {
@@ -230,7 +259,12 @@ body {
 
 .logo-comp {
   max-width: 220px;
-  filter: invert(100%);
+}
+
+.logo-bord {
+  border: 0.5px solid #272a314b;
+  min-width: 300px;
+  height: 180px;
 }
 
 .event {
@@ -249,17 +283,20 @@ body {
 }
 
 .table {
-  border: 5px dotted rgba(174, 188, 121, 0.66);
+  border: 5px solid rgba(174, 188, 121, 0.66);
+  border-image-source: url(../resources/border-img.png);
+  border-image-repeat: repeat;
+  border-image-slice: 20;
   border-radius: 2px 6px 6px 3px;
   width: fit-content;
 }
 
-tr:nth-child(2n) {
-  background-color: lightblue;
+tr:first-child {
+  background-color: #f8f8f8;
 }
 
-tr:nth-child(2n-1) {
-  background-color: rgb(57, 180, 180);
+tr:nth-child(n+2) {
+  background-color: #fdfdfd;
 }
 
 .steps {
@@ -278,12 +315,10 @@ tr:nth-child(2n-1) {
 
 .table-div {
   height: 300px;
-  background-image: url(../resources/gravel.png);
 }
 
 .menu {
   min-height: 450px;
-  background-image: url(../resources/gravel.png);
 }
 
 .radio-group img {
@@ -292,8 +327,7 @@ tr:nth-child(2n-1) {
 }
 
 .form button {
-  background: rgb(97, 84, 105);
-  background: linear-gradient(90deg, rgb(140, 126, 150) 0%, rgba(137, 73, 116, 1) 26%, rgba(139, 77, 100, 1) 56%, rgb(126, 117, 106) 100%);
+  background-color: #ec5242;
 }
 
 .nav-mob,
@@ -314,16 +348,26 @@ tr:nth-child(2n-1) {
   color: rgb(230, 212, 212) !important;
 }
 
-.nav-mob img,
+.nav-mob img {
+  width: 40px;
+  height: 40px;
+}
+
 .close img {
   width: 30px;
 }
 
+.nav-mob img:hover {
+  width: 45px;
+  height: 45px;
+}
+
 .mob-menu-body {
-  background-color: black;
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73), rgba(117, 19, 93, 0.73));
-  height: 100%;
-  background-repeat: no-repeat;
+  background-color: #ec5242;
+}
+
+.bottom-foot {
+  background-color: #d3d3d3;
 }
 
 @media screen and (max-width: 768px) {
@@ -355,13 +399,12 @@ tr:nth-child(2n-1) {
     margin-top: 0;
   }
 
-  .mob-menu,
-  .mob-menu h2 {
-    font-size: 3rem;
+  .mob-menu {
+    font-size: 2rem;
   }
 
   .mob-menu a {
-    color: rgb(182, 139, 139);
+    color: white;
     text-decoration: none;
   }
 
@@ -392,7 +435,6 @@ tr:nth-child(2n-1) {
   .sp3,
   .sp4,
   .sp5 {
-    color: black;
     font-size: 3rem;
   }
 
