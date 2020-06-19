@@ -34,9 +34,6 @@ Contributions, issues and feature requests are welcome! Start by:
 
 [Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/ticketX/f080e0aa9842d94b86b617766b022ca09fca8f4f/index.html)
 
-## Project Presentation
-
-[Loom video link](https://www.loom.com/share/bd6754ce3bf041949a4fba52cb457a2c)
 
 ## Author
 
